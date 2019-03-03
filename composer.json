@@ -1,6 +1,7 @@
 {
 	"name": "pmmp-repo/TestComposer",
 	"autoload": {
+		"files": ["plugin.php"],
 		"psr-4": {
 			"SOFe\\TestComposer\\": "src"
 		}
