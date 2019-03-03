@@ -1,0 +1,16 @@
+{
+	"name": "pmmp-repo/TestComposer",
+	"autoload": {
+		"psr-4": {
+			"SOFe\\TestComposer\\": "src"
+		}
+	},
+	"require": {
+		"sof3/pocketmine-mp": "^4.0.0"
+	},
+	"pm": {
+		"main": "SOFe\\TestComposer\\Main",
+		"load": "STARTUP",
+		"loadbefore": "AnEarlyPlugin"
+	}
+}
